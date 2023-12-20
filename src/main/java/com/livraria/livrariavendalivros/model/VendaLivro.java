@@ -26,6 +26,9 @@ public class VendaLivro {
         this.idLivro = idLivro;
         this.amount = amount;
     }
-    
 
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }

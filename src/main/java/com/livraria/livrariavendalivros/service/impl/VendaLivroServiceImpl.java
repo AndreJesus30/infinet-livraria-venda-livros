@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.livraria.livrariavendalivros.exception.VendaLivroNotFoundException;
-import com.livraria.livrariavendalivros.model.Livro;
 import com.livraria.livrariavendalivros.model.VendaLivro;
 import com.livraria.livrariavendalivros.repository.VendaLivroRepository;
 import com.livraria.livrariavendalivros.service.VendaLivroService;
