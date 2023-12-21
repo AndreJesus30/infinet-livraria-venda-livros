@@ -10,3 +10,7 @@ services:
       MONGODB_DATABASE: venda-livros
     volumes:
       - ./mongo:/data/db
+  zipkin:
+    image: openzipkin/zipkin:2
+    ports:
+      - '9411:9411'
